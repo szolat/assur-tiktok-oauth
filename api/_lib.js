@@ -100,7 +100,7 @@ export function page(title, body) {
 </style>
 </head>
 <body>
-  <div class="card">${body}<div class="foot">ASSUR MX · assur.mx</div></div>
+  <div class="card">${body}<div class="foot">ASSUR MX · <a class="link" href="/terminos">Términos</a> · <a class="link" href="/privacidad">Privacidad</a></div></div>
 </body>
 </html>`;
 }

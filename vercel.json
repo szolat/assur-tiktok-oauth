@@ -1,5 +1,16 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/api/index" }
+    {
+      "source": "/",
+      "destination": "/api/index"
+    },
+    {
+      "source": "/terminos",
+      "destination": "/api/terminos"
+    },
+    {
+      "source": "/privacidad",
+      "destination": "/api/privacidad"
+    }
   ]
 }
